@@ -25,6 +25,14 @@ npx skills add axetroy/naturalize-writing.skill
 
 Follow the prompts to select your agent and installation scope. Once installed, ask the agent to naturalize, humanize, or polish supplied text; if no text is included, the skill instructs it to ask for the draft. You can also install the skill manually by copying this repository into a directory recognized by your Agent Skills-compatible client.
 
+To uninstall the skill with the Skills CLI, run:
+
+```sh
+npx skills remove naturalize-writing
+```
+
+Follow the prompts to select the agent and installation scope.
+
 For example:
 
 > Make this paragraph sound more natural for a technical blog, while keeping the claims and terminology unchanged:
