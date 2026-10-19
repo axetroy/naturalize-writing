@@ -20,7 +20,7 @@
 使用 Skills CLI 安装（需要 Node.js 和 npm/npx）：
 
 ```sh
-npx skills add axetroy/naturalize-writing
+npx skills add axetroy/naturalize-writing --skill naturalize-writing
 ```
 
 根据提示选择要使用的 Agent 和安装范围。安装完成后，要求 Agent 自然化、润色或改写你提供的文字；如果没有提供原文，Skill 会提示你粘贴文本。你也可以手动将本仓库复制到 Agent Skills 兼容客户端识别的目录中。
