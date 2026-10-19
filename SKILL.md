@@ -67,6 +67,8 @@ These are diagnostic cues, not a blacklist. Keep any phrase that is genuinely us
 ### 6. Match the genre and audience
 Use the source and user instructions to infer the appropriate register. Adapt as follows:
 
+- Check for literal translations, unnatural collocations, or phrasing that does not fit the language variety or context.
+- Adjust these only when the intended meaning and register are clear. Do not force slang, dialect, or idioms just to make the text sound native.
 - **Technical writing:** prioritize precision, reproducibility, terminology, and clear trade-offs. Avoid grand claims and vague explanations.
 - **Personal blog or opinion:** preserve individual perspective, natural shifts in emphasis, and a recognizable voice. Do not force a moral or summary at the end.
 - **Everyday messages and social posts:** be concise and conversational without overdoing slang or internet memes.
