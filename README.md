@@ -1,5 +1,7 @@
 # Naturalize Writing
 
+[简体中文](README.zh-CN.md) | English
+
 An Agent Skill for revising AI-generated or overly formulaic writing into clear, natural prose without changing the author's meaning or voice.
 
 ## What it does
@@ -15,7 +17,7 @@ It does not add deliberate mistakes or promise to evade AI-detection systems. Se
 
 ## Use
 
-Install or copy this repository as a skill in a directory recognized by your Agent Skills-compatible client. The exact location depends on the client. Ask the agent to naturalize, humanize, or polish supplied text; if no text is included, the skill instructs it to ask for the draft.
+Install or copy this repository into a directory recognized by your Agent Skills-compatible client. The exact location depends on the client. Ask the agent to naturalize, humanize, or polish supplied text; if no text is included, the skill instructs it to ask for the draft.
 
 For example:
 
@@ -29,7 +31,13 @@ The skill defaults to the source language and returns the complete revised text.
 
 ```text
 .
-└── SKILL.md    # Skill metadata and instructions
+├── SKILL.md          # Skill metadata and instructions
+├── README.md         # English documentation
+└── README.zh-CN.md   # 简体中文文档
 ```
 
 No runtime dependencies or build step are required.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
