@@ -20,7 +20,7 @@ It does not add deliberate mistakes or promise to evade AI-detection systems. Se
 Install with the Skills CLI (Node.js and npm/npx required):
 
 ```sh
-npx skills add axetroy/naturalize-writing.skill
+npx skills add axetroy/naturalize-writing
 ```
 
 Follow the prompts to select your agent and installation scope. Once installed, ask the agent to naturalize, humanize, or polish supplied text; if no text is included, the skill instructs it to ask for the draft. You can also install the skill manually by copying this repository into a directory recognized by your Agent Skills-compatible client.
