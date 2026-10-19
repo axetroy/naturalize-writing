@@ -1,6 +1,6 @@
 ---
 name: naturalize-writing
-description: Revise AI-generated or overly formulaic text so it reads naturally and retains the author's meaning, voice, factual accuracy, and useful detail. Use when asked to humanize, naturalize, de-AI, polish, or edit text for a more authentic voice.
+description: Use when the user explicitly asks to make text sound more natural or human, remove formulaic AI-style phrasing, or polish it for an authentic voice while preserving meaning. Do not use for ordinary drafting, proofreading, or editing unless naturalness or voice is a stated goal.
 ---
 
 # Naturalize Writing
