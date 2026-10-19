@@ -13,7 +13,7 @@ The skill helps an agent:
 - preserve factual claims, caveats, technical details, and the author's point of view;
 - make selective edits instead of rewriting text that already works.
 
-It does not add deliberate mistakes or promise to evade AI-detection systems. See [`SKILL.md`](SKILL.md) for the full editing principles, workflow, and output defaults.
+It does not add deliberate mistakes or promise to evade AI-detection systems. See [`SKILL.md`](.agents/skills/naturalize-writing/SKILL.md) for the full editing principles, workflow, and output defaults.
 
 ## Use
 
@@ -41,13 +41,14 @@ For example:
 
 The skill defaults to the source language and returns the complete revised text. You can specify a target audience, tone, format, or ask for multiple versions.
 
-## Repository contents
+## Key files
 
 ```text
 .
-├── SKILL.md          # Skill metadata and instructions
-├── README.md         # English documentation
-└── README.zh-CN.md   # 简体中文文档
+├── .agents/skills/naturalize-writing/SKILL.md
+├── LICENSE
+├── README.md
+└── README.zh-CN.md
 ```
 
 No runtime dependencies or build step are required.

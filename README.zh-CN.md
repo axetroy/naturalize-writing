@@ -13,7 +13,7 @@
 - 保留事实主张、限定条件、技术细节和作者观点；
 - 只修改确实需要调整的内容，不为了改写而改写。
 
-它不会故意添加错误，也不承诺帮助文本绕过 AI 检测。完整的编辑原则、工作流程和输出规范请参阅 [`SKILL.md`](SKILL.md)。
+它不会故意添加错误，也不承诺帮助文本绕过 AI 检测。完整的编辑原则、工作流程和输出规范请参阅 [`SKILL.md`](.agents/skills/naturalize-writing/SKILL.md)。
 
 ## 使用方法
 
@@ -41,13 +41,14 @@ npx skills remove naturalize-writing
 
 默认情况下，输出语言与原文一致，并返回完整的修订稿。你也可以指定目标读者、语气、格式，或要求提供多个版本。
 
-## 仓库内容
+## 核心文件
 
 ```text
 .
-├── SKILL.md          # Skill 元数据和使用说明
-├── README.md         # 英文文档
-└── README.zh-CN.md   # 简体中文文档
+├── .agents/skills/naturalize-writing/SKILL.md
+├── LICENSE
+├── README.md
+└── README.zh-CN.md
 ```
 
 本项目无需运行时依赖或构建步骤。
