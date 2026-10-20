@@ -23,7 +23,9 @@ Install with the Skills CLI (Node.js and npm/npx required):
 npx skills add axetroy/naturalize-writing --skill naturalize-writing
 ```
 
-Follow the prompts to select your agent and installation scope. Once installed, ask the agent to naturalize, humanize, or polish supplied text; if no text is included, the skill instructs it to ask for the draft. You can also install the skill manually by copying this repository into a directory recognized by your Agent Skills-compatible client.
+Follow the prompts to select your agent and installation scope. Once installed, ask the agent to naturalize, humanize, or polish supplied text; if no text is included, the skill instructs it to ask for the draft.
+
+To install manually, copy `.agents/skills/naturalize-writing` into a skills directory recognized by your client. Keep the `naturalize-writing` folder and its `SKILL.md` file together.
 
 To uninstall the skill with the Skills CLI, run:
 

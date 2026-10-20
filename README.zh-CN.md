@@ -23,7 +23,9 @@
 npx skills add axetroy/naturalize-writing --skill naturalize-writing
 ```
 
-根据提示选择要使用的 Agent 和安装范围。安装完成后，要求 Agent 自然化、润色或改写你提供的文字；如果没有提供原文，Skill 会提示你粘贴文本。你也可以手动将本仓库复制到 Agent Skills 兼容客户端识别的目录中。
+根据提示选择要使用的 Agent 和安装范围。安装完成后，要求 Agent 自然化、润色或改写你提供的文字；如果没有提供原文，Skill 会提示你粘贴文本。
+
+如需手动安装，请将 `.agents/skills/naturalize-writing` 目录复制到客户端识别的 skills 目录中，并保留 `naturalize-writing` 文件夹及其中的 `SKILL.md` 文件。
 
 使用 Skills CLI 卸载此 Skill：
 
