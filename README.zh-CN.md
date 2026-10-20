@@ -15,7 +15,7 @@
 
 它不会故意添加错误，也不承诺帮助文本绕过 AI 检测。完整的编辑原则、工作流程和输出规范请参阅 [`SKILL.md`](.agents/skills/naturalize-writing/SKILL.md)。
 
-## 使用方法
+## 安装
 
 使用 Skills CLI 安装（需要 Node.js 和 npm/npx）：
 
@@ -23,15 +23,23 @@
 npx skills add axetroy/naturalize-writing --skill naturalize-writing
 ```
 
-根据提示选择要使用的 Agent 和安装范围。安装完成后，要求 Agent 自然化、润色或改写你提供的文字；如果没有提供原文，Skill 会提示你粘贴文本。你也可以手动将本仓库复制到 Agent Skills 兼容客户端识别的目录中。
+根据提示选择要使用的 Agent 和安装范围。安装完成后，要求所选 Agent 自然化、润色或改写你提供的文字；如果没有提供原文，Skill 会提示你粘贴文本。
 
-使用 Skills CLI 卸载此 Skill：
+如需手动安装，请将 `.agents/skills/naturalize-writing` 目录复制到客户端识别的 skills 目录中，并保留 `naturalize-writing` 文件夹及其中的 `SKILL.md` 文件。
+
+## 卸载
+
+如需卸载通过 CLI 安装的版本，请运行：
 
 ```sh
 npx skills remove naturalize-writing
 ```
 
-根据提示选择 Agent 和安装范围。
+根据提示选择安装此 Skill 时使用的 Agent 和安装范围。
+
+如需卸载手动安装的版本，请从复制该 Skill 的 skills 目录中删除 `naturalize-writing` 文件夹。
+
+## 使用方法
 
 例如：
 

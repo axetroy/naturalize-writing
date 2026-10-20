@@ -15,7 +15,7 @@ The skill helps an agent:
 
 It does not add deliberate mistakes or promise to evade AI-detection systems. See [`SKILL.md`](.agents/skills/naturalize-writing/SKILL.md) for the full editing principles, workflow, and output defaults.
 
-## Use
+## Install
 
 Install with the Skills CLI (Node.js and npm/npx required):
 
@@ -23,15 +23,23 @@ Install with the Skills CLI (Node.js and npm/npx required):
 npx skills add axetroy/naturalize-writing --skill naturalize-writing
 ```
 
-Follow the prompts to select your agent and installation scope. Once installed, ask the agent to naturalize, humanize, or polish supplied text; if no text is included, the skill instructs it to ask for the draft. You can also install the skill manually by copying this repository into a directory recognized by your Agent Skills-compatible client.
+Follow the prompts to select your agent and installation scope. Once installed, ask the selected agent to naturalize, humanize, or polish supplied text; if no text is included, the skill instructs it to ask for the draft.
 
-To uninstall the skill with the Skills CLI, run:
+To install manually, copy `.agents/skills/naturalize-writing` into a skills directory recognized by your client. Keep the `naturalize-writing` folder and its `SKILL.md` file together.
+
+## Uninstall
+
+To remove a CLI installation, run:
 
 ```sh
 npx skills remove naturalize-writing
 ```
 
-Follow the prompts to select the agent and installation scope.
+Follow the prompts to select the agent and installation scope where the skill was installed.
+
+To remove a manual installation, delete the `naturalize-writing` folder from the skills directory where you copied it.
+
+## Use
 
 For example:
 
